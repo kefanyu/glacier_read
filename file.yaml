@@ -1,0 +1,22 @@
+file_type: csv
+dataset_name: bike
+file_name: SeoulBikeData
+table_name: 
+inbound_delimiter: encoding = 'unicode_escape'
+outbound_delimiter: "|"
+skip_leading_rows: 0
+columns: 
+    - date
+    - rented_bike_count
+    - hour
+    - temperature_c
+    - humidity
+    - wind_speed_m_s
+    - visibility_10m
+    - dew_point_temperature_c
+    - solar_radiation_mj_m2
+    - rainfall_mm
+    - snowfall_cm
+    - seasons
+    - holiday
+    - functioning_day
